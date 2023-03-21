@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+nav{
+ 	background: #EEC734;
+ 	height: 80px;
+ 	width: 100%;
+}
+.enlace{
+	position: absolute;
+	padding: 10px 40px;
+}
+.logo{
+	height: 50px;
+	width: 10%;
+}
+nav ul{
+	float: right;
+	margin-right: 50px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 05px;
+}
+nav ul li a{
+	color: #01054F;
+	font-size: 18px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+li a.active, li a:hover{
+	background: #FFFFFF;
+	transition: .5spx;
+}
+.checkbtn{
+	font-size: 30px;
+	color: #0000CD;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
